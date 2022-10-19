@@ -1,0 +1,8 @@
+#
+# trace06.txt - Forward SIGINT only to foreground job.
+#
+./myspin 4 &
+./myspin 5
+SLEEP 2
+INT
+/bin/ps -o pid,tty,stat,time,comm

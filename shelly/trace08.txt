@@ -1,0 +1,8 @@
+#
+# trace08.txt - Process fg builtin command
+#
+./myspin 5
+SLEEP 2
+TSTP
+SLEEP 5
+fg

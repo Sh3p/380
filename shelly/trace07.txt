@@ -1,0 +1,8 @@
+#
+# trace07.txt - Forward SIGTSTP only to foreground job.
+#
+./myspin 4 &
+./myspin 5
+SLEEP 2
+TSTP
+/bin/ps -o pid,tty,stat,time,comm

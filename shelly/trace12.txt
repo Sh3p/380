@@ -1,0 +1,12 @@
+#
+# trace12.txt - Simple error handling
+#
+
+./bogus
+SLEEP 1
+fg
+SLEEP 1
+./myspin 4 &
+SLEEP 2
+fg
+SLEEP 2

@@ -1,0 +1,11 @@
+#
+# trace11.txt - Restart every stopped process in process group
+#
+
+/bin/ps -o pid,tty,stat,comm
+./mysplit 4
+SLEEP 1
+TSTP
+SLEEP 1
+fg
+/bin/ps -o pid,tty,stat,comm

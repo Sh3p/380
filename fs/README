@@ -1,0 +1,7 @@
+# Filesystems Lab
+
+- create_fs: utility which creates an empty filesystem file
+- fs.{c,o}: your very own filesystems library
+- runner: utility program which acts as an entrypoint to your fs_repl()
+
+Submit ONLY fs.c to Autolab
